@@ -1,0 +1,81 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT logpendidikan (murid,guru,kepsek,satpam,tu)>
+<!ATTLIST logpendidikan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT murid (nama,kelas,nis,alamat,jk,agama,pekerjaan,tl,jurusan,angkatan)>
+<!ATTLIST murid
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT guru (nama,alamat,nohp,jk,agama,pekerjaan,tl,email,hobi,jabatan)>
+<!ATTLIST guru
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kepsek (nama,alamat,nohp,jk,agama,pekerjaan,tl,email,hobi,jabatan)>
+<!ATTLIST kepsek
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT satpam (nama,alamat,nohp,jk,agama,pekerjaan,tl,email,hobi,jabatan)>
+<!ATTLIST satpam
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tu (nama,alamat,nohp,jk,agama,pekerjaan,tl,email,hobi,jabatan)>
+<!ATTLIST tu
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kelas (#PCDATA)>
+<!ATTLIST kelas
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nis (#PCDATA)>
+<!ATTLIST nis
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jurusan (#PCDATA)>
+<!ATTLIST jurusan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT angkatan (#PCDATA)>
+<!ATTLIST angkatan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama (#PCDATA)>
+<!ATTLIST nama
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT alamat (#PCDATA)>
+<!ATTLIST alamat
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jk (#PCDATA)>
+<!ATTLIST jk
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT agama (#PCDATA)>
+<!ATTLIST agama
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pekerjaan (#PCDATA)>
+<!ATTLIST pekerjaan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tl (#PCDATA)>
+<!ATTLIST tl
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nohp (#PCDATA)>
+<!ATTLIST nohp
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT hobi (#PCDATA)>
+<!ATTLIST hobi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jabatan (#PCDATA)>
+<!ATTLIST jabatan
+    xmlns CDATA #FIXED ''>
